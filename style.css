@@ -1,0 +1,290 @@
+@media (max-width: 600px) {
+
+   
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    @import url("https://fonts.google.com/specimen/Barlow+Condensed");
+
+    body {
+        background-color: hsl(210, 46%, 95%);
+        width: 100%;
+        height: 100%;
+        font-family: 'Barlow Condensed';
+
+    }
+
+    main {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        margin-top: 1rem;
+        gap: 1.5rem;
+        display: grid;
+        grid-template-areas: "purple gray white-two"
+            "white-one black white-two";
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .purple {
+        width: 36rem;
+        grid-area: purple;
+        padding: 2.2rem;
+        font-family: 'Barlow Condensed';
+        background-color: hsl(263, 55%, 52%);
+        background-image: url('./images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: 300px 0px;
+        border-radius: 10px;
+    }
+
+    .purple header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: hsl(0, 0%, 81%);
+        font-size: 17px;
+        font-weight: 100
+    }
+
+    .purple img {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .grad {
+        opacity: 0.5;
+    }
+
+    .bold {
+        font-weight: 600;
+        font-size: 1.4em;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    .normal {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        color: hsl(0, 0%, 81%);
+        opacity: 0.7;
+    }
+
+    .gray {
+        width: 20rem;
+        padding: 2.2rem;
+        grid-area: gray;
+        font-family: 'Barlow Semi Condensed';
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 10px;
+    }
+
+    .gray header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: hsl(0, 0%, 81%);
+        font-size: 17px;
+        font-weight: 100
+    }
+
+    .gray img {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .grad {
+        opacity: 0.5;
+    }
+
+    .bold {
+        font-weight: 600;
+        font-size: 1.4em;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    .normal {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        color: hsl(0, 0%, 81%);
+        opacity: 0.7;
+    }
+
+    .white-one {
+        width: 20rem;
+        padding: 2.2rem;
+        grid-area: white-one;
+        font-family: 'Barlow Semi Condensed';
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .white-one header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: hsl(219, 29%, 14%);
+        font-size: 17px;
+        font-weight: 100
+    }
+
+    .white-one img {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .grad {
+        opacity: 0.5;
+    }
+
+    .white-one .bold {
+        font-weight: 600;
+        font-size: 1.4em;
+        color: hsl(219, 29%, 14%);
+        margin-top: 2rem;
+    }
+
+    .white-one .normal {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        color: hsl(219, 29%, 14%);
+        opacity: 0.7;
+    }
+
+    .black {
+        width: 36rem;
+        padding: 2.2rem;
+        /* margin-left: -16rem; */
+        grid-area: black;
+        font-family: 'Barlow Semi Condensed';
+        background-color: hsl(219, 29%, 14%);
+        border-radius: 10px;
+    }
+
+    .black header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: hsl(0, 0%, 81%);
+        font-size: 17px;
+        font-weight: 100
+    }
+
+    .black img {
+        border: 1px solid hsl(263, 55%, 52%);
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .grad {
+        opacity: 0.5;
+    }
+
+    .bold {
+        font-weight: 600;
+        font-size: 1.4em;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    .normal {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        color: hsl(0, 0%, 81%);
+        opacity: 0.7;
+    }
+
+    .white-two {
+        width: 20rem;
+        padding: 2.2rem;
+        grid-area: white-two;
+        font-family: 'Barlow Semi Condensed';
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .white-two header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: hsl(219, 29%, 14%);
+        font-size: 17px;
+        font-weight: 100
+    }
+
+    .white-two img {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .grad {
+        opacity: 0.5;
+    }
+
+    .white-two .bold {
+        font-weight: 600;
+        font-size: 1.4em;
+        color: hsl(219, 29%, 14%);
+        margin-top: 2rem;
+    }
+
+    .white-two .normal {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        color: hsl(219, 29%, 14%);
+        opacity: 0.7;
+    }
+}
+
+@media (min-width: 402px) {
+
+    @import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    main {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        margin-top: 1rem;
+        gap: 1.5rem;
+        display: grid;
+        grid-template-areas: "purple gray white-two"
+            "white-one black white-two";
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .purple {
+        width: 25rem;
+    }
+
+    .gray {
+        width: 25rem;
+    }
+
+    .white-one {
+        width: 25rem;
+    }
+
+    .black {
+        width: 25rem;
+    }
+
+    .white-two {
+        width: 25rem;
+    }
+
+}
