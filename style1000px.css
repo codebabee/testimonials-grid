@@ -1,40 +1,39 @@
-@media (max-width: 500px) {
+@media (min-width: 1000px) {
 
-   
+    @import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
     * {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
     }
-    @import url("https://fonts.google.com/specimen/Barlow+Condensed");
 
     body {
         background-color: hsl(210, 46%, 95%);
         width: 100%;
         height: 100%;
-        padding: 1rem;
-        font-family: 'Barlow Condensed';
+        margin: 2rem;
+        overflow-x: hidden;
 
     }
 
     main {
         width: 80%;
         height: 50%;
+        font-family: 'Barlow Semi Condensed';
         margin: auto;
-        margin-top: 1rem;
+        margin-top: 0.1rem;
         gap: 1.5rem;
         display: grid;
         grid-template-areas: "purple gray white-two"
             "white-one black white-two";
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .purple {
         width: 36rem;
         grid-area: purple;
         padding: 2.2rem;
-        font-family: 'Barlow Condensed';
+        font-family: 'Barlow Semi Condensed';
         background-color: hsl(263, 55%, 52%);
         background-image: url('./images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
@@ -77,6 +76,7 @@
 
     .gray {
         width: 20rem;
+        height: 21.8rem;
         padding: 2.2rem;
         grid-area: gray;
         font-family: 'Barlow Semi Condensed';
@@ -119,6 +119,7 @@
 
     .white-one {
         width: 20rem;
+        height: 21.2rem;
         padding: 2.2rem;
         grid-area: white-one;
         font-family: 'Barlow Semi Condensed';
@@ -161,8 +162,9 @@
 
     .black {
         width: 36rem;
+        height: 21.2rem;
         padding: 2.2rem;
-        /* margin-left: -16rem; */
+        margin-left: -16rem;
         grid-area: black;
         font-family: 'Barlow Semi Condensed';
         background-color: hsl(219, 29%, 14%);
@@ -203,7 +205,8 @@
     }
 
     .white-two {
-        width: 20rem;
+        width: 17rem;
+        height: 45rem;
         padding: 2.2rem;
         grid-area: white-two;
         font-family: 'Barlow Semi Condensed';
@@ -244,4 +247,3 @@
         opacity: 0.7;
     }
 }
-

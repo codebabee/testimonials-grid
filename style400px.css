@@ -1,0 +1,45 @@
+@media (min-width: 400px) {
+
+    @import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    main {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        margin-top: 1rem;
+        gap: 1.5rem;
+        display: grid;
+        grid-template-areas: "purple gray white-two"
+            "white-one black white-two";
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .purple {
+        width: 25rem;
+    }
+
+    .gray {
+        width: 25rem;
+    }
+
+    .white-one {
+        width: 25rem;
+    }
+
+    .black {
+        width: 25rem;
+    }
+
+    .white-two {
+        width: 25rem;
+    }
+
+}
+

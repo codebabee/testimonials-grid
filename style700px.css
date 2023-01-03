@@ -1,40 +1,44 @@
-@media (max-width: 500px) {
+@media (min-width: 700px) {
 
-   
+    @import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
     * {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
     }
-    @import url("https://fonts.google.com/specimen/Barlow+Condensed");
 
     body {
         background-color: hsl(210, 46%, 95%);
         width: 100%;
         height: 100%;
-        padding: 1rem;
-        font-family: 'Barlow Condensed';
+    
 
     }
 
     main {
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
+        max-height: 150rem;
+        font-family: 'Barlow Semi Condensed';
         margin: auto;
-        margin-top: 1rem;
+        margin-top: 3rem;
         gap: 1.5rem;
-        display: grid;
+        /* display: grid;
         grid-template-areas: "purple gray white-two"
-            "white-one black white-two";
-        display: flex;
-        flex-wrap: wrap;
+            "white-one black white-two"; */
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: column;
     }
 
     .purple {
-        width: 36rem;
+        width: 40rem;
         grid-area: purple;
         padding: 2.2rem;
-        font-family: 'Barlow Condensed';
+        font-family: 'Barlow Semi Condensed';
         background-color: hsl(263, 55%, 52%);
         background-image: url('./images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
@@ -76,7 +80,7 @@
     }
 
     .gray {
-        width: 20rem;
+        width: 40rem;
         padding: 2.2rem;
         grid-area: gray;
         font-family: 'Barlow Semi Condensed';
@@ -118,7 +122,7 @@
     }
 
     .white-one {
-        width: 20rem;
+        width: 40rem;
         padding: 2.2rem;
         grid-area: white-one;
         font-family: 'Barlow Semi Condensed';
@@ -160,9 +164,9 @@
     }
 
     .black {
-        width: 36rem;
+        width: 40rem;
         padding: 2.2rem;
-        /* margin-left: -16rem; */
+        margin-left: 0rem;
         grid-area: black;
         font-family: 'Barlow Semi Condensed';
         background-color: hsl(219, 29%, 14%);
@@ -203,7 +207,7 @@
     }
 
     .white-two {
-        width: 20rem;
+        width: 40rem;
         padding: 2.2rem;
         grid-area: white-two;
         font-family: 'Barlow Semi Condensed';
@@ -244,4 +248,3 @@
         opacity: 0.7;
     }
 }
-
