@@ -1,13 +1,12 @@
 @media (max-width: 500px) {
 
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
    
     * {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
     }
-    @import url("https://fonts.google.com/specimen/Barlow+Condensed");
-
     body {
         background-color: hsl(210, 46%, 95%);
         width: 100%;
